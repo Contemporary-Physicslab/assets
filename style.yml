@@ -4,14 +4,14 @@ project:
 site:
   template: book-theme
   options:
-    logo:      https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/tudelft.png?ref_type=heads
+    logo:      https://raw.githubusercontent.com/Contemporary-Physicslab/assets/refs/heads/main/branding/tudelft.png
     # logo_url: 
-    logo_dark: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/tudelft-dark.png?ref_type=heads
-    favicon:   https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/favicon.ico?ref_type=heads
+    logo_dark: https://raw.githubusercontent.com/Contemporary-Physicslab/assets/refs/heads/main/branding/tudelft-dark.png
+    favicon:   https://raw.githubusercontent.com/Contemporary-Physicslab/assets/refs/heads/main/branding/favicon.ico
     hide_authors: true
-    style: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/custom.css?ref_type=heads
+    style: https://raw.githubusercontent.com/Contemporary-Physicslab/assets/refs/heads/main/branding/custom.css
   parts:
-    footer: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/footer.md?ref_type=heads
+    footer: https://raw.githubusercontent.com/Contemporary-Physicslab/assets/refs/heads/main/branding/footer.md
     # navbar: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/navbar_end.md?ref_type=heads
 
   actions:
