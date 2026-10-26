@@ -1,0 +1,8 @@
+numpy
+scipy
+tqdm
+pandas
+matplotlib
+ipywidgets
+ipympl
+ipyleaflet

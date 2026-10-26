@@ -1,0 +1,42 @@
+version: 1
+project:
+  plugins:
+    # LIGHTBOX: CREATES A GALLERY VIEW PER PAGE FOR ILLUSTRATIONS
+    # REQUIREMENTS: NODEJS > 20
+    # ORIGIN: CREATED BY CHRIS HOLDGRAF
+    # - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/lightbox.mjs?ref_type=heads 
+
+    # PYODIDE: ALLOWS EDITABLE AND RUNABLE PYTHON CODE CELLS
+    # REQUIREMENTS: WIDGET.MJS
+    # ORIGIN
+    - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/pyodide.mjs?ref_type=heads 
+    
+    # PAGE-LAST UPDATED: CREATES PER PAGE A DATESTAMP SHOWING LAST EDIT OF THAT PAGE
+    # REQUIREMENTS: GIT 
+    # ORIGIN: CREATED BY FREEK POLS
+    - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/page-last-updated.mjs?ref_type=heads 
+    
+    # MANIM: ALLOWS RENDERING OF MANIM CLIPS
+    # REQUIREMENTS: MANIM-WIDGET.MJS
+    # ORIGIN: 
+    - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/manim.mjs?ref_type=heads 
+    
+    # PDF_EXERCISE: CREATES TRANSFORM OF EXERCISES TO PDF
+    # ORIGIN: CREATED BY LUUK FRÖLING ON REQUEST OF FREEK POLS
+    - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/pdf_exercise.mjs?ref_type=heads 
+    
+    # ICONIFY: ALLOWS THE USE OF ICONS
+    # ORIGIN: CREATED BY CHRIS HOLDGRAF
+    - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/iconify.mjs?ref_type=heads 
+
+
+    # MARIMO: ALLOWS EDITABLE PYTHON CODE CELLS
+    # REQUIREMENTS: NEEDS TO BE INSTALLED IN ENVIRONMENT
+    # ORIGIN: https://marimo-team.github.io/jupyter-book-marimo/
+    # 
+
+    # NAME: FUNCTION
+    # REQUIREMENTS: 
+    # ORIGIN:
+    # https://gitlab.tudelft.nl/oicm/assets/-/raw/main/plugins/<PLUGIN>?ref_type=heads
+

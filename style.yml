@@ -1,0 +1,19 @@
+version: 1
+project:
+
+site:
+  template: book-theme
+  options:
+    logo:      https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/tudelft.png?ref_type=heads
+    # logo_url: 
+    logo_dark: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/tudelft-dark.png?ref_type=heads
+    favicon:   https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/favicon.ico?ref_type=heads
+    hide_authors: true
+    style: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/custom.css?ref_type=heads
+  parts:
+    footer: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/footer.md?ref_type=heads
+    # navbar: https://github.com/Contemporary-Physicslab/assets/-/raw/main/branding/navbar_end.md?ref_type=heads
+
+  actions:
+    - title: PDF
+      url: ./exports/output.pdf
